@@ -93,3 +93,38 @@
 #blog div a:hover{
     color: orangered;
 }
+#services {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#services h2{
+    padding-top: 150px;
+    font-size: 35px;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+#services ul {
+    white-space:nowrap;
+    padding-bottom: 90px;
+}
+
+#ul,li{
+    display:inline-block;
+    list-style-type: none;  
+    text-align: center;
+    padding: 25px 60px 25px 60px;
+    margin: 0px 15px 0px 10px;
+    background-color: white;
+}
+
+#ul,li:first-child{ 
+    background-color: orangered;
+}
+
+#ul,li:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
